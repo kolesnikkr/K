@@ -1,23 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <Windows.h>
 #include <math.h>
 #define MAX_SIZE 10
 
 
 static void Menu() {
-    SetConsoleCP(1251); 
-    SetConsoleOutputCP(1251); 
 
     printf("Операції над матрицями:\n");
     printf("1.Обернена матриця\n");
     printf("2.Транспонування матриці\n");
-    printf("3.Множення на скаляр\n");
+    printf("3.множення на скаляр\n");
     printf("4.Додавання матриць\n");
     printf("5.Віднімання матриць\n");
     printf("6.Множення матриць\n");
     printf("7.Визначник\n");
-    printf("0. Завершення роботи\n");
+    printf("0.Завершення роботи\n");
     printf("Виберіть операцію для виконання:\n");
 }
 
